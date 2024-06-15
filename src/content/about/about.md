@@ -1,5 +1,7 @@
 ## A privacy-first, no-nonsense, super-fast astro blogging theme
 
+Here's Joey's blog.
+
 **No trackers, a few javascript, few stylesheets**. and your words.
 
 Looks great on any device
@@ -10,6 +12,6 @@ No trackers, ads, little scripts
 
 RSS feeds
 
-Publish something awesome with your panda hands 
+Publish something awesome with your panda hands
 
 
