@@ -1,8 +1,8 @@
 export const PandaConfig = {
-    title: 'Panda Blog',
-    description: 'Panda Blog, a blog powered by Astro',
-    start: '2016',
-    site: 'https://astro-theme-panda.vercel.app/',
+    title: 'Joey\'s Blog',
+    description: 'Everyone is fighting their own battle.',
+    start: '2021',
+    site: 'https://enblog.crocodilezs.top/',
     defaultLocale: 'en',
     navbar: [
         // {title: 'Posts', url: '/'}, // auto generated
@@ -10,7 +10,7 @@ export const PandaConfig = {
     ],
     footer: [
         { title: 'rss', url: '/rss.xml/' },
-        { title: 'contact', url: 'https://github.com/yuhangch/astro-theme-panda/issues/new' },
-        { title: 'github', url: 'https://github.com/yuhangch/astro-theme-panda' }
+        { title: 'contact', url: 'https://github.com/crocodilezs/' },
+        // { title: 'github', url: 'https://github.com/yuhangch/astro-theme-panda' }
     ]
 }
