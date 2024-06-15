@@ -10,7 +10,7 @@ export const PandaConfig = {
         { title: 'now', url: '/now/' }
     ],
     footer: [
-        { title: 'rss', url: '/rss.xml/' },
+        { title: 'rss', url: '/rss.xml' },
         { title: 'contact', url: 'https://github.com/crocodilezs/' },
         // { title: 'github', url: 'https://github.com/yuhangch/astro-theme-panda' }
     ]
