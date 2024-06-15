@@ -31,7 +31,7 @@ export default defineConfig({
         plugins: [yaml()],
     },
     prefetch: true,
-    site,
+    site: 'https://enblog.crocodilezs.top',
     scopedStyleStrategy: 'class',
     trailingSlash: 'always',
     build: {
