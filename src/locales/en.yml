@@ -1,6 +1,6 @@
 nav:
-    posts: posts
-    recent: recent
+    posts: Posts
+    recent: Recent
 footer:
     home: home
     rss: rss
