@@ -5,9 +5,10 @@ export const PandaConfig = {
     site: 'https://enblog.crocodilezs.top/',
     defaultLocale: 'en',
     navbar: [
-        // {title: 'Posts', url: '/'}, // auto generated
-        { title: 'about', url: '/about/' },
-        { title: 'now', url: '/now/' }
+        { title: 'Home', url: '/'},
+        { title: 'About', url: '/about/' },
+        { title: 'Now', url: '/now/' },
+        {title: 'Posts', url: '/posts/'}
     ],
     footer: [
         { title: 'rss', url: '/rss.xml' },
