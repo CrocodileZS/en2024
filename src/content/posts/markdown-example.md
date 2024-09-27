@@ -4,6 +4,7 @@ description: "You can author content using the familiar markdown syntax you alre
 pubDate: 2024-03-02
 tags: ['markdown','example']
 categories: ['tech']
+draft: true
 ---
 
 Markdown is powered by [Markdoc](https://markdoc.dev/). This is an example post to demonstrate all the basic markdown syntax. You can author content using the familiar markdown syntax you already know.

@@ -6,13 +6,13 @@ export const PandaConfig = {
     defaultLocale: 'en',
     navbar: [
         { title: 'Home', url: '/'},
-        { title: 'About', url: '/about/' },
         { title: 'Now', url: '/now/' },
-        {title: 'Posts', url: '/posts/'}
+        { title: 'Posts', url: '/posts/'},
+        { title: 'Gallery', url: '/gallery/'}
     ],
     footer: [
         { title: 'rss', url: '/rss.xml' },
-        { title: 'contact', url: 'https://github.com/crocodilezs/' },
+        { title: 'contact', url: 'mailto:yuyang.zhou1@outlook.com' },
         // { title: 'github', url: 'https://github.com/yuhangch/astro-theme-panda' }
     ]
 }
