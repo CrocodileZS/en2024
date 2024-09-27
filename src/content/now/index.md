@@ -1,17 +1,27 @@
-## now page A privacy-first, no-nonsense, super-fast astro blogging theme
+# What I'm doing right now
+This page shows what I'm focussing on at this point of my life. Think of it as a more relevant "About" page. Inspired by [nownownow.com](https://nownownow.com/about).
 
-Here's Joey's blog.
+*Last updated: 27 Sep 2024, 22:13*
 
-**No trackers, a few javascript, few stylesheets**. and your words.
+---
+## Studying to graduate and find a job
+I expect to gratuate from TU/e at July 2025. Before that I'll improve my professional skills as a full stack engineer and then find a job in the Netherlands. Here're the things I'm mainly working on:
 
-Looks great on any device
+### Courses
+I still have 2 courses to finish this semester. They involves following skills: **distributed system design and implement**, **language virtual machine**, **Java**, **Python**...
 
-Tiny (~30kb), optimized, and awesome pages
+### Graduation project
+I will do my graduation project in Signify. I'm now searching for a supervisor in university and then I can confirm the topic. The assignment involves **federated learning**, **large language model**, **AWS**... (tbc)
 
-No trackers, ads, little scripts
+### Leetcode
+I go over the algorithms and join the daily problem. I participate the biweekly contest as more as I can.
 
-RSS feeds
+### Java development
 
-Publish something awesome with your panda hands
+---
+## Getting fit
+I started to go back to gym since the beginning of August. I would like to spend more time on workout but studying and working are really time consuming. I go to the gym four times a week for anaerobic exercise and swim for 40 minutes once a week. Due to a gluteal injury, I have to give up squarting and deadlifting and can only train my legs using fixed machines. In swimming, I have consolidated the breaststroke I learned a year ago and will attempt to learn treading water and other swimming strokes. I also watch videos on kinesiology and nutrition, which not only improve my knowledge in these areas but also help me practice English.
+
+##
 
 
