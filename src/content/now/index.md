@@ -11,7 +11,7 @@ I expect to gratuate from TU/e at July 2025. Before that I'll improve my profess
 I still have 2 courses to finish this semester. They involves following skills: **distributed system design and implement**, **language virtual machine**, **Java**, **Python**...
 
 ### Graduation project
-I will do my graduation project in Signify. I'm now searching for a supervisor in university and then I can confirm the topic. The assignment involves **federated learning**, **large language model**, **AWS**... (tbc)
+(tbc)
 
 ### Leetcode
 I go over the algorithms and join the daily problem. I participate the biweekly contest as more as I can.
