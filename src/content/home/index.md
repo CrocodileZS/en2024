@@ -1,5 +1,5 @@
 ## Hi I'm Joey Zhou 周宇洋.
-### I write code, document my life, enjoy connecting with nature, create ASMR videos ([What's ASMR?](https://www.youtube.com/watch?v=I-nLDznr-tI)).
+### I write code, document my life, enjoy connecting with the nature.
 
 I received my bachelor's degree in 2021 in *Data Science and Big Data Technology* from *Beijing University of Posts and Telecommunications (BUPT)* in China.
 

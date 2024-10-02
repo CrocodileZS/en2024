@@ -4,7 +4,7 @@ This page shows what I'm focussing on at this point of my life. Think of it as a
 *Last updated: 27 Sep 2024, 22:13*
 
 ---
-## Studying to graduate and find a job
+## Studying to graduate and job hunting
 I expect to gratuate from TU/e at July 2025. Before that I'll improve my professional skills as a full stack engineer and then find a job in the Netherlands. Here're the things I'm mainly working on:
 
 ### Courses
