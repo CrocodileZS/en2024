@@ -7,7 +7,7 @@ export const PandaConfig = {
     navbar: [
         { title: 'Home', url: '/'},
         { title: 'Now', url: '/now/' },
-        // { title: 'Posts', url: '/posts/'},
+        { title: 'Posts', url: '/posts/'},
         { title: 'Gallery', url: '/gallery/'}
     ],
     footer: [

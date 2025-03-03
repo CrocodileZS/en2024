@@ -1,12 +1,9 @@
 ## Hi I'm Joey Zhou 周宇洋.
 
-I started my master's program in 2023 in *Computer Science and Engineering* at *Eindhoven University of Technology (TU/e)* in the Netherlands, and expect to graduate in July 2025.
+I study *Computer Science and Engineering* at *Eindhoven University of Technology (TU/e)* in the Netherlands from 2023, and expect to graduate in July 2025.
 
-I received my bachelor's degree in 2021 in *Data Science and Big Data Technology* from *Beijing University of Posts and Telecommunications (BUPT)* in China.
+I like ASMR content creation and strategy card games.
 
-After that I worked as a research engineer in *Chinese Academy of Sciences (CASIA)*.
-
-
-![selfie](https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/WhatsApp%20Image%202024-08-29%20at%2000.30.00.jpeg)
+![selfie](https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1180.jpg)
 
 
