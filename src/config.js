@@ -6,6 +6,7 @@ export const PandaConfig = {
     defaultLocale: 'en',
     navbar: [
         { title: 'Home', url: '/'},
+        { title: 'Portfolio', url: '/portfolio/' },
         { title: 'Now', url: '/now/' },
         //
         { title: 'Gallery', url: '/gallery/'}
