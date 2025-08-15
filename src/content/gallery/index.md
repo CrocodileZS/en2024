@@ -1,3 +1,12 @@
+Arona, Tenerife, 26 December 2024
+![](https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202508150058274.png)
+
+Mount Teide, Tenerife, 25 December 2024
+![](https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202508150054108.png)
+
+Doha, Qatar, 9 November 2024
+![](https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202508150052740.png)
+
 Eindhoven, Netherlands, 18 September 2024
 ![](https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202409272311394.png)
 
