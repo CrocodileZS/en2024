@@ -1,8 +1,8 @@
 export const PandaConfig = {
-    title: 'Joey\'s Blog',
+    title: 'Joey\'s Page',
     description: 'Everyone is fighting their own battle.',
     start: '2021',
-    site: 'https://enblog.crocodilezs.top/',
+    site: 'https://blog.crcz.eu/',
     defaultLocale: 'en',
     navbar: [
         { title: 'Home', url: '/'},
