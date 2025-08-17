@@ -2,7 +2,7 @@ export const PandaConfig = {
     title: 'Joey\'s Page',
     description: 'Everyone is fighting their own battle.',
     start: '2021',
-    site: 'https://blog.crcz.eu/',
+    site: 'https://crcz.eu/',
     defaultLocale: 'en',
     navbar: [
         { title: 'Home', url: '/'},

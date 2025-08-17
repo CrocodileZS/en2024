@@ -31,7 +31,7 @@ export default defineConfig({
         plugins: [yaml()],
     },
     prefetch: true,
-    site: 'https://blog.crcz.eu/',
+    site: 'https://crcz.eu/',
     scopedStyleStrategy: 'class',
     trailingSlash: 'always',
     build: {
