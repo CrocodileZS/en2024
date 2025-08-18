@@ -7,8 +7,8 @@ This page shows what I'm focussing on at this point of my life. Think of it as a
 
 * 🦁 Onboarding at ING
 * 🏡 House renting & settle into Amsterdam;
-* 🇺🇸 English Learning (shadowing reading per day & ToastMaster meetup);
-* 🇳🇱 Nederlands leren (Duolingo);
+* 🇺🇸 English Learning;
+* 🇳🇱 Nederlands leren;
 * 💪 Fit: Cutting phase 1;
 
 
