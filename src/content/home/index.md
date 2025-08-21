@@ -17,6 +17,5 @@ Fun fact about me:
 * I can fall asleep to true crime stories
 * I once ate non-stop for 10 hours (The reason my friends call me *Crocodile*)
 
-Feel free to reach me at [yuyang DOT zhou1 AT outlook DOT com] if you’d like to connect.
 You can also find more about my work on [LinkedIn](https://www.linkedin.com/in/joeyzhou5/).
 
