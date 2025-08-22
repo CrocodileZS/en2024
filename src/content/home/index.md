@@ -4,18 +4,18 @@ In Chinese, the three characters mean **inclusion, the universe and the ocean**.
 
 <img src="https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202508150224874.png" alt="selfie" loading="lazy" style="max-width:80%; height:auto; display:block;">
 
-I earned my **Master’s degree in Computer Science and Engineering** from **Eindhoven University of Technology (TU/e)** in the Netherlands in July 2025. Starting 1 September 2025, I’ll join **ING** as a Tech Class Engineer.
+I completed my **Master’s degree in Computer Science and Engineering at Eindhoven University of Technology (TU/e)** in July 2025. Starting 1 September 2025, I’ll join **ING** as a Tech Class Engineer.
 
 Before that, I received my **Bachelor’s degree** from **Beijing University of Posts and Telecommunications**. My internships exposed me to diverse industries from national infrastructure to consumer tech and global manufacturing, which shaped my adaptability and problem-solving skills.
 
-Outside of work, I enjoy **photography** (Phone & Canon EOS M50), playing **Hearthstone** (Druid player), and creating **ASMR content** (Especially rapid tapping and eating sounds).
+Technically, my focus is on **backend engineering** and **applied AI**. I have hands-on experience with Python, Java (Spring Boot) and RESTful API design, as well as working knowledge of MySQL, Docker, and cloud platforms (AWS). My Master’s project explored efficient deployment of large video-language models on edge devices, giving me exposure to model quantization and distributed inference.
+
+Outside of work, I enjoy **photography**, playing **Hearthstone**, and creating **ASMR content**.
+
 
 <img src="https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202508150244274.png" alt="tapping sound" loading="lazy" style="max-width:80%; height:auto; display:block;">
 
-Fun fact about me:
-* I once fell off the 2nd floor as a teenager and luckily, I’m still here to tell the story;)
-* I can fall asleep to true crime stories
-* I once ate non-stop for 10 hours (The reason my friends call me *Crocodile*)
+*Me recording tapping sounds*
 
 You can also find more about my work on [LinkedIn](https://www.linkedin.com/in/joeyzhou5/).
 

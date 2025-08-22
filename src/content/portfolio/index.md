@@ -3,7 +3,7 @@ Duration: Dec. 2024 - Jul. 2025
 
 Company: <img src="https://companieslogo.com/img/orig/LIGHT.AS-acc5c0bd.png" alt="casia" height="20" style="vertical-align: middle;"> Signify
 
-**TL;DR**: Enabled efficient on-device **video captioning** by applying **quantization and partitioning** to lightweight vision-language models, reducing memory usage while preserving accuracy.
+**TL;DR:** Enabled efficient on-device **video captioning** by applying **quantization and partitioning** to lightweight vision-language models, reducing memory usage while preserving accuracy.
 
 <details>
 <summary> Details </summary>
@@ -21,9 +21,9 @@ Duration: Jul. 2023 - Aug. 2023
 
 Role: Independent Developer
 
-**TL;DR:** Built and operated a subscription-based rental listing notification service that reached **103 paid subscribers** and generated **€2,530 in revenue within 2 months**.
+I independently built and launched a subscription-based rental listing notification service that gained **103 paying subscribers** and generated **€2,530 in revenue within two months**. Beyond development, I also handled product design and growth marketing, taking the project from idea to a validated business.
 
-Stack: Growth Marketing, Python, Web Scraping, HTML, Webhook bot
+Stack: Python, Web Scraping, HTML, Webhook bot, Growth Marketing
 
 ---
 
@@ -34,7 +34,7 @@ Duration: Jun. 2022 - Jan. 2023
 
 Organization: <img src="https://pbs.twimg.com/profile_images/1384046724730089475/c-14qjh0_400x400.png" alt="casia" height="20" style="vertical-align: middle;"> Chinese Academy of Science
 
-**TL;DR**: CogKTR is an open-source toolkit for **knowledge-enhanced text representation** in NLU, unifying acquisition, representation, injection, and application of external knowledge under the Unified Knowledge-Enhanced Paradigm (UniKEP). The toolkit is open-source on [GitHub](https://github.com/CogNLP/CogKTR), with an online demo and an instruction video.
+**TL;DR:** CogKTR is an open-source toolkit for **knowledge-enhanced text representation** in NLU, unifying acquisition, representation, injection, and application of external knowledge under the Unified Knowledge-Enhanced Paradigm (UniKEP). The toolkit is open-source on [GitHub](https://github.com/CogNLP/CogKTR), with an online demo and an instruction video.
 
 <details>
 <summary> Details </summary>
@@ -68,7 +68,7 @@ Duration: Mar. 2022 – May 2022
 Company: <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg" alt="Xiaomi" height="20" style="vertical-align: middle;"> Xiaomi (Internet Business Group)
 
 
-**TL;DR**: Analyzed and optimized ad inventory, bidding, and fill strategies using performance metrics (eCPM, CTR, conversion rate), **achieving +18% ad inventory, +3% revenue from bidding optimization, and +11% revenue from fill strategy optimization**.
+**TL;DR:** Analyzed and optimized ad inventory, bidding, and fill strategies using performance metrics (eCPM, CTR, conversion rate), **achieving +18% ad inventory, +3% revenue from bidding optimization, and +11% revenue from fill strategy optimization**.
 
 <details>
 <summary> Details </summary>
