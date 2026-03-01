@@ -1,7 +1,7 @@
 # What I'm doing right now
 This page shows what I'm focussing on at this point of my life. Think of it as a more relevant "About" page. Inspired by [nownownow.com](https://nownownow.com/about).
 
-*Last updated: 9 Oct 2025, 23.17, Amsterdam*
+*Last updated: Mar 1 2025, 14.04, Amsterdam*
 
 ---
 
