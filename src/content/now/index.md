@@ -6,16 +6,16 @@ This page shows what I'm focussing on at this point of my life. Think of it as a
 ---
 
 * 🦁 Tech
-    * SRE Learning Path in Udemy;
-    * Backend Learning Path in Udemy;
-    * Spring AI
+    * SRE Learning Path;
+    * Backend Learning Path;
+    * Github Copilot;
+* 🇺🇸 Public Speaking & English Learning;
+    * ToastMaster Amselveen;
 * 🏡 House renting & settle into Amsterdam;
     * Moving to Diemen. Finally got a studio :)
-* 🇺🇸 English Learning;
-    * Book: English for everyday activities;
-    * ToastMaster Amselveen;
 * 💪 Fit
+    * Learning swimming;
     * Cutting phase 1 finished 75kg -> 70kg;
-    * Bulk phase 2 until the end of next March;
+    * Bulk phase 2 until the end of March;
 
 

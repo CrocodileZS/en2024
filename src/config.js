@@ -9,7 +9,7 @@ export const PandaConfig = {
         { title: 'Portfolio', url: '/portfolio/' },
         { title: 'Now', url: '/now/' },
         //
-        { title: 'Gallery', url: '/gallery/'}
+        // { title: 'Gallery', url: '/gallery/'}
     ],
     footer: [
         { title: 'rss', url: '/rss.xml' },
