@@ -32,6 +32,7 @@
         "@types/luxon": "latest",
         "@types/markdown-it": "latest",
         "@types/node": "^20.12.2",
+        "@unocss/astro": "^66.6.4",
         "debug": "latest",
         "hastscript": "latest",
         "jsonc-parser": "latest",
