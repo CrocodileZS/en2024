@@ -1,7 +1,105 @@
 ---
-import MDI18nLayout from '@layouts/MDI18nLayout.astro'
-import { useLocale } from '@utils/locale'
-const { t } = useLocale(Astro.url)
-const posts = await Astro.glob('../content/gallery/*.md')
+import Layout from "../layouts/Layout.astro";
+import PhotoGallery from "../components/PhotoGallary.astro";
+
+const images2021 = [
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/EC910708-4753-4A63-BC40-C67D30F410B1.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0227.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0266.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0299.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0383.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_2961.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_3486.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_3962.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_5522.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202409272300638.png",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202409272303704.png"
+];
+
+const images2023 = [
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_8532.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_3331.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_2839.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_2090.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/_DSC7852%202.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/_DSC7832%202.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/_DSC2432.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/_DSC2104.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/_DSC1651%202.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/_DSC1600%202.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202409272320769.png",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202409272317242.png"
+];
+
+const images2024 = [
+
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_5263%202.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_4892.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_4551.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1244.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1211%202.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0881.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_5274%202.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0166%202.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0082.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/1e6f267ac73d56b8fa9fdf4665dd29a5.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202409272311450.png",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/202508150058274.png"
+];
+
+const images2025 = [
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_2768%202.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_2648.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1647.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1608%202.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/55f9bc6882418cea95286486a938a276bbf3b176%202.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1605.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1497%202.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1406.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_1392%202.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0812.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/IMG_0097.jpg",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/DSC_5538.JPEG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/d9cfe8d90b35b37fbbbbc809f59f0051.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/adefcbe3-585b-4766-bbb1-2e609c3b6c21%202.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/a70d4256-feba-4178-90c0-603362c37528%202.JPG",
+  "https://imgurlcrcz.oss-cn-hangzhou.aliyuncs.com/img/95105935cbf078253920a3245cf33b84%202.jpg"
+];
 ---
-<MDI18nLayout title={t('nav.recent')} slug="index" posts={posts} />
+
+<Layout title="Gallery">
+  <section class="gallery-page">
+  <h1>2025</h1>
+
+    <PhotoGallery images={images2025} />
+  <h1>2024</h1>
+
+    <PhotoGallery images={images2024} />
+
+  <h1>2023</h1>
+
+    <PhotoGallery images={images2023} />
+
+    <h1>2021</h1>
+
+    <PhotoGallery images={images2021} />
+
+
+</Layout>
+
+<style>
+  .gallery-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+
+  .gallery-page h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .gallery-page p {
+    margin-bottom: 1.5rem;
+    opacity: 0.75;
+  }
+</style>

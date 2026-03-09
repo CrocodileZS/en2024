@@ -5,11 +5,10 @@ export const PandaConfig = {
     site: 'https://crcz.eu/',
     defaultLocale: 'en',
     navbar: [
-        { title: 'Home', url: '/'},
-        { title: 'Portfolio', url: '/portfolio/' },
+        // { title: 'Home', url: '/'},
+        { title: 'Portfolio', url: '/' },
         { title: 'Now', url: '/now/' },
-        //
-        // { title: 'Gallery', url: '/gallery/'}
+        { title: 'Gallery', url: '/gallery/'}
     ],
     footer: [
         { title: 'rss', url: '/rss.xml' },
