@@ -14,7 +14,7 @@ const { images } = Astro.props as Props;
       data-full={src}
       aria-label={`Open photo ${index + 1}`}
     >
-      <img src={src} alt="" loading="lazy" />
+      <img src={src} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
     </button>
   ))}
 </div>
