@@ -4,6 +4,12 @@ interface Props {
 }
 
 const { images } = Astro.props as Props;
+
+const getThumbUrl = (url: string) =>
+  `${url}${url.includes('?') ? '&' : '?'}x-oss-process=image/resize,w_900/quality,q_80`;
+
+const getFullUrl = (url: string) =>
+  `${url}${url.includes('?') ? '&' : '?'}x-oss-process=image/resize,w_1600/quality,q_85`;
 ---
 
 <div class="photo-gallery">
@@ -11,10 +17,16 @@ const { images } = Astro.props as Props;
     <button
       class="photo-card"
       type="button"
-      data-full={src}
+      data-full={getFullUrl(src)}
       aria-label={`Open photo ${index + 1}`}
     >
-      <img src={src} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+      <img
+        src={getThumbUrl(src)}
+        alt=""
+        loading="lazy"
+        decoding="async"
+        referrerpolicy="no-referrer"
+      />
     </button>
   ))}
 </div>
@@ -24,6 +36,7 @@ const { images } = Astro.props as Props;
     <button class="lightbox-close" type="button" aria-label="Close preview">
       ×
     </button>
+    <div class="lightbox-loading">Loading...</div>
     <img class="lightbox-image" src="" alt="" />
   </div>
 </dialog>
@@ -32,14 +45,37 @@ const { images } = Astro.props as Props;
   const dialog = document.getElementById('lightbox');
   const dialogImage = dialog?.querySelector('.lightbox-image');
   const closeButton = dialog?.querySelector('.lightbox-close');
+  const loadingText = dialog?.querySelector('.lightbox-loading');
   const cards = document.querySelectorAll('.photo-card');
+
+  function openImage(src) {
+    if (!dialog || !dialogImage || !loadingText || !src) return;
+
+    loadingText.textContent = 'Loading...';
+    loadingText.classList.add('is-visible');
+    dialogImage.classList.remove('is-visible');
+    dialogImage.removeAttribute('src');
+
+    if (!dialog.open) {
+      dialog.showModal();
+    }
+
+    const preloader = new Image();
+    preloader.onload = () => {
+      dialogImage.setAttribute('src', src);
+      dialogImage.classList.add('is-visible');
+      loadingText.classList.remove('is-visible');
+    };
+    preloader.onerror = () => {
+      loadingText.textContent = 'Failed to load image';
+    };
+    preloader.src = src;
+  }
 
   cards.forEach((card) => {
     card.addEventListener('click', () => {
       const src = card.getAttribute('data-full');
-      if (!dialog || !dialogImage || !src) return;
-      dialogImage.setAttribute('src', src);
-      dialog.showModal();
+      openImage(src);
     });
   });
 
@@ -51,6 +87,14 @@ const { images } = Astro.props as Props;
     if (event.target === dialog) {
       dialog.close();
     }
+  });
+
+  dialog?.addEventListener('close', () => {
+    if (!dialogImage || !loadingText) return;
+    dialogImage.removeAttribute('src');
+    dialogImage.classList.remove('is-visible');
+    loadingText.classList.remove('is-visible');
+    loadingText.textContent = 'Loading...';
   });
 
   document.addEventListener('keydown', (event) => {
@@ -132,16 +176,31 @@ const { images } = Astro.props as Props;
     justify-content: center;
   }
 
+  .lightbox-loading {
+    display: none;
+    color: white;
+    font-size: 0.95rem;
+    opacity: 0.8;
+  }
+
+  .lightbox-loading.is-visible {
+    display: block;
+  }
+
   .lightbox-image {
+    display: none;
     max-width: 100%;
     max-height: 100%;
     width: auto;
     height: auto;
-    display: block;
     object-fit: contain;
     border-radius: 18px;
     box-shadow: 0 24px 80px rgba(0, 0, 0, 0.42);
     background: transparent;
+  }
+
+  .lightbox-image.is-visible {
+    display: block;
   }
 
   .lightbox-close {
@@ -158,6 +217,7 @@ const { images } = Astro.props as Props;
     background: rgba(255, 255, 255, 0.18);
     color: white;
     backdrop-filter: blur(8px);
+    z-index: 2;
   }
 
   @media (max-width: 900px) {
