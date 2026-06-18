@@ -2,6 +2,7 @@
     "name": "astro-theme-panda",
     "type": "module",
     "version": "0.1.0",
+    "packageManager": "pnpm@10.30.3",
     "scripts": {
         "dev": "astro dev",
         "start": "astro dev",
@@ -43,5 +44,9 @@
         "slash": "latest",
         "unist-util-visit": "latest",
         "unocss": "latest"
+    },
+    "optionalDependencies": {
+        "@oxc-parser/binding-darwin-arm64": "0.115.0",
+        "@oxc-parser/binding-linux-x64-gnu": "0.115.0"
     }
 }
