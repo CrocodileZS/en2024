@@ -7,7 +7,7 @@ This page shows what I'm focussing on at this point of my life. Think of it as a
 
 * 🦁 Tech
     * Completing ING Tech Class Program;
-    * Sift (MVP is ready, contact me if you'd like to be a test user:)). Sift helps people rescue lost tasks from chaos. With AI-powered organization, your ideas, deadlines, and goals are automatically sorted into a clear workflow;
+    * Sift (MVP is on the way, contact me if you'd like to be a test user:)). Sift helps people rescue lost tasks from chaos. With AI-powered organization, your ideas, deadlines, and goals are automatically sorted into a clear workflow;
     * Github Copilot license;
 * 🇺🇸 Public Speaking & Language Learning;
     * ToastMaster Amselveen Club;
